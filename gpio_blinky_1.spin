@@ -30,11 +30,12 @@
     will act as a binary clock up to the maximum representable time (16 ticks).
     
     We program this first example in Spin, which by default runs on cog0 
-    upon boot. This is an example, later examples will move into the real of 
-    assembler.
+    upon boot. This is an example, later examples will move into the real 
+    of assembler.
     
-    We are assuming that the crystal being used is a 5 MHz crystal. In my tests I 
-    have been using a QANTEK 5 MHz, 18 pF crystal, product number QCL5.00000F18B23B
+    We are assuming that the crystal being used is a 5 MHz crystal. In my 
+    tests I have been using a QANTEK 5 MHz, 18 pF crystal, product number 
+    QCL5.00000F18B23B
 }
 CON
     ' We are using a 5 MHz crystal
